@@ -627,6 +627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6997106303008768413}
+  - component: {fileID: 4230683847466636907}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Untagged
@@ -643,7 +644,7 @@ Transform:
   m_GameObject: {fileID: 6997106303008768414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 675, y: 1243, z: 0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6997106303371459299}
@@ -652,6 +653,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4230683847466636907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6997106303008768414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6db3f8b3e934a4ab2529f3afdf129e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleMinValue: 0.1
+  scaleMaxValue: 0.5
+  rotMinValue: 0
+  rotMaxValue: 360
 --- !u!1 &6997106303077286781
 GameObject:
   m_ObjectHideFlags: 0

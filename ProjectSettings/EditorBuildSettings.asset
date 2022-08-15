@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Menu/Menu Scene.unity
+    guid: 277fce69523b2d04caf42622c6d4d8dd
+  - enabled: 1
     path: Assets/Hirushka/HirushkaScene.unity
     guid: d1f670692e466b64f82a1af0c1e3caf8
   m_configObjects:

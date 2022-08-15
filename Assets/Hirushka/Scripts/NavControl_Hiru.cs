@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class NavControl_Hiru : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
+    public void LoadScene(string HirushkaScene)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(HirushkaScene);
     }
 }

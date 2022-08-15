@@ -54,8 +54,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15bb32c7d11fe44295bf75605b21b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleMinValue: 0.001
-  scaleMaxValue: 0.1
+  scaleMinValue: 0.003
+  scaleMaxValue: 0.03
   rotMinValue: 0
   rotMaxValue: 360
 --- !u!1 &1185803442592380166

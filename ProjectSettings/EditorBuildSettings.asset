@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Menu/Menu Scene.unity
     guid: 277fce69523b2d04caf42622c6d4d8dd
   - enabled: 1
-    path: Assets/Hirushka/HirushkaScene.unity
-    guid: d1f670692e466b64f82a1af0c1e3caf8
+    path: Assets/Harshana/HarshanaScene.unity
+    guid: 9d8e43ea61c229c4eb9c2806a1316ca5
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 3224b6b930163284aa53109725f6a246, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f038b38c0389d724f8e81cdc8949fdc2, type: 2}

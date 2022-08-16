@@ -732,6 +732,8 @@ struct RuntimeReferenceImageLibrary_tBAE57A7BC9A82E302D6DC78EB9D90EC36F5995BF;
 struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
 // UnityEngine.Shader
 struct Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692;
+// UnityEngine.UI.Slider
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F;
 // UnityEngine.Sprite
 struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
 // UnityEngine.TextCore.Text.SpriteAsset
@@ -12636,6 +12638,23 @@ struct EventTrigger_tAEBFB7A16CA99343EA87722F78884BF8646BAE1B  : public MonoBeha
 	List_1_tA70D786D375D198C77EBB594AE632A6DFC82A440* ___m_Delegates_4;
 };
 
+// Hirushka_SpawnInteractable
+struct Hirushka_SpawnInteractable_t970ABB03D0B3FB12BDB6CCA94A2620FCDE32EF92  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.UI.Slider Hirushka_SpawnInteractable::scaleSlider
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___scaleSlider_4;
+	// UnityEngine.UI.Slider Hirushka_SpawnInteractable::rotateSlider
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___rotateSlider_5;
+	// System.Single Hirushka_SpawnInteractable::scaleMinValue
+	float ___scaleMinValue_6;
+	// System.Single Hirushka_SpawnInteractable::scaleMaxValue
+	float ___scaleMaxValue_7;
+	// System.Single Hirushka_SpawnInteractable::rotMinValue
+	float ___rotMinValue_8;
+	// System.Single Hirushka_SpawnInteractable::rotMaxValue
+	float ___rotMaxValue_9;
+};
+
 // Hirushka_SpawnableScript
 struct Hirushka_SpawnableScript_t40C3B49EEDA10625DD46F343097531C2BCBD74CE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -12649,6 +12668,38 @@ struct Hirushka_SpawnableScript_t40C3B49EEDA10625DD46F343097531C2BCBD74CE  : pub
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___arCam_7;
 	// UnityEngine.GameObject Hirushka_SpawnableScript::spawnedObject
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawnedObject_8;
+};
+
+// Kanchan_spawnableacript
+struct Kanchan_spawnableacript_tB643F920038FF90FF614EAEE0419FB3DAE0BDC22  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.XR.ARFoundation.ARRaycastManager Kanchan_spawnableacript::m_RaycastManager
+	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___m_RaycastManager_4;
+	// System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARRaycastHit> Kanchan_spawnableacript::m_Hits
+	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___m_Hits_5;
+	// UnityEngine.GameObject Kanchan_spawnableacript::spawnablePrefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawnablePrefab_6;
+	// UnityEngine.Camera Kanchan_spawnableacript::arCam
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___arCam_7;
+	// UnityEngine.GameObject Kanchan_spawnableacript::spawnedObject
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawnedObject_8;
+};
+
+// SpawnInteractable
+struct SpawnInteractable_t2BD73D0A698D7C1EEC68351A9B225E22C82CE89A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.UI.Slider SpawnInteractable::scaleSlider
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___scaleSlider_4;
+	// UnityEngine.UI.Slider SpawnInteractable::rotateSlider
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___rotateSlider_5;
+	// System.Single SpawnInteractable::scaleMinValue
+	float ___scaleMinValue_6;
+	// System.Single SpawnInteractable::scaleMaxValue
+	float ___scaleMaxValue_7;
+	// System.Single SpawnInteractable::rotMinValue
+	float ___rotMinValue_8;
+	// System.Single SpawnInteractable::rotMaxValue
+	float ___rotMaxValue_9;
 };
 
 // SpawnManager
@@ -15472,15 +15523,24 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3947[7] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3952[3] = 
 {
 	static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___m_nTag_0)),static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___m_aValue_1)),static_cast<int32_t>(offsetof(ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6F, ___elist_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3957[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3958[6] = 
 {
-	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap_0)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap_1)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3960[5] = 
+	static_cast<int32_t>(offsetof(SpawnInteractable_t2BD73D0A698D7C1EEC68351A9B225E22C82CE89A, ___scaleSlider_4)),static_cast<int32_t>(offsetof(SpawnInteractable_t2BD73D0A698D7C1EEC68351A9B225E22C82CE89A, ___rotateSlider_5)),static_cast<int32_t>(offsetof(SpawnInteractable_t2BD73D0A698D7C1EEC68351A9B225E22C82CE89A, ___scaleMinValue_6)),static_cast<int32_t>(offsetof(SpawnInteractable_t2BD73D0A698D7C1EEC68351A9B225E22C82CE89A, ___scaleMaxValue_7)),static_cast<int32_t>(offsetof(SpawnInteractable_t2BD73D0A698D7C1EEC68351A9B225E22C82CE89A, ___rotMinValue_8)),static_cast<int32_t>(offsetof(SpawnInteractable_t2BD73D0A698D7C1EEC68351A9B225E22C82CE89A, ___rotMaxValue_9)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3959[5] = 
 {
 	static_cast<int32_t>(offsetof(SpawnManager_tD38605BF221D4CC849CF709A85499D2B698FD6FC, ___m_RaycastManager_4)),static_cast<int32_t>(offsetof(SpawnManager_tD38605BF221D4CC849CF709A85499D2B698FD6FC, ___m_Hits_5)),static_cast<int32_t>(offsetof(SpawnManager_tD38605BF221D4CC849CF709A85499D2B698FD6FC, ___spawnablePrefab_6)),static_cast<int32_t>(offsetof(SpawnManager_tD38605BF221D4CC849CF709A85499D2B698FD6FC, ___arCam_7)),static_cast<int32_t>(offsetof(SpawnManager_tD38605BF221D4CC849CF709A85499D2B698FD6FC, ___spawnedObject_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3961[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3960[5] = 
 {
 	static_cast<int32_t>(offsetof(Hirushka_SpawnableScript_t40C3B49EEDA10625DD46F343097531C2BCBD74CE, ___m_RaycastManager_4)),static_cast<int32_t>(offsetof(Hirushka_SpawnableScript_t40C3B49EEDA10625DD46F343097531C2BCBD74CE, ___m_Hits_5)),static_cast<int32_t>(offsetof(Hirushka_SpawnableScript_t40C3B49EEDA10625DD46F343097531C2BCBD74CE, ___spawnablePrefab_6)),static_cast<int32_t>(offsetof(Hirushka_SpawnableScript_t40C3B49EEDA10625DD46F343097531C2BCBD74CE, ___arCam_7)),static_cast<int32_t>(offsetof(Hirushka_SpawnableScript_t40C3B49EEDA10625DD46F343097531C2BCBD74CE, ___spawnedObject_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3966[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3961[6] = 
+{
+	static_cast<int32_t>(offsetof(Hirushka_SpawnInteractable_t970ABB03D0B3FB12BDB6CCA94A2620FCDE32EF92, ___scaleSlider_4)),static_cast<int32_t>(offsetof(Hirushka_SpawnInteractable_t970ABB03D0B3FB12BDB6CCA94A2620FCDE32EF92, ___rotateSlider_5)),static_cast<int32_t>(offsetof(Hirushka_SpawnInteractable_t970ABB03D0B3FB12BDB6CCA94A2620FCDE32EF92, ___scaleMinValue_6)),static_cast<int32_t>(offsetof(Hirushka_SpawnInteractable_t970ABB03D0B3FB12BDB6CCA94A2620FCDE32EF92, ___scaleMaxValue_7)),static_cast<int32_t>(offsetof(Hirushka_SpawnInteractable_t970ABB03D0B3FB12BDB6CCA94A2620FCDE32EF92, ___rotMinValue_8)),static_cast<int32_t>(offsetof(Hirushka_SpawnInteractable_t970ABB03D0B3FB12BDB6CCA94A2620FCDE32EF92, ___rotMaxValue_9)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3963[5] = 
+{
+	static_cast<int32_t>(offsetof(Kanchan_spawnableacript_tB643F920038FF90FF614EAEE0419FB3DAE0BDC22, ___m_RaycastManager_4)),static_cast<int32_t>(offsetof(Kanchan_spawnableacript_tB643F920038FF90FF614EAEE0419FB3DAE0BDC22, ___m_Hits_5)),static_cast<int32_t>(offsetof(Kanchan_spawnableacript_tB643F920038FF90FF614EAEE0419FB3DAE0BDC22, ___spawnablePrefab_6)),static_cast<int32_t>(offsetof(Kanchan_spawnableacript_tB643F920038FF90FF614EAEE0419FB3DAE0BDC22, ___arCam_7)),static_cast<int32_t>(offsetof(Kanchan_spawnableacript_tB643F920038FF90FF614EAEE0419FB3DAE0BDC22, ___spawnedObject_8)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3966[3] = 
+{
+	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap_0)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap_1)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3971[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};

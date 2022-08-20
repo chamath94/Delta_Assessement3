@@ -80,7 +80,15 @@ extern void NavManik_Update_mA6BB17D5757164DC18BD5133872C6A13AAC43C38 (void);
 extern void NavManik_LoadScene_mB831B114493741F27B624D7CCFECE9EE7661D1BD (void);
 // 0x00000022 System.Void NavManik::.ctor()
 extern void NavManik__ctor_m52588EA16DD99A223637110AA6072F7D7F01F307 (void);
-static Il2CppMethodPointer s_methodPointers[34] = 
+// 0x00000023 System.Void ManikSpawnableScript::Start()
+extern void ManikSpawnableScript_Start_m57FFD49B98C73F265B6B4EB8FDC079468217303D (void);
+// 0x00000024 System.Void ManikSpawnableScript::Update()
+extern void ManikSpawnableScript_Update_m446DC36A3D66F86DCAF64B74F4DA1E3AA5D5FE03 (void);
+// 0x00000025 System.Void ManikSpawnableScript::SpawnPrefab(UnityEngine.Vector3)
+extern void ManikSpawnableScript_SpawnPrefab_mF6F1DA07023A649033C6423BC1188FCD3FF43278 (void);
+// 0x00000026 System.Void ManikSpawnableScript::.ctor()
+extern void ManikSpawnableScript__ctor_m1FD10FF6B87637D86F6ED9500F139B9528B385C0 (void);
+static Il2CppMethodPointer s_methodPointers[38] = 
 {
 	NavScriptHarshana_LoadScene_m897F3171C51129F307F129F1FE8E2A0BE486E79F,
 	NavScriptHarshana__ctor_m5BC1A46341AA240102931D618A8BDBEE8E2A6260,
@@ -116,8 +124,12 @@ static Il2CppMethodPointer s_methodPointers[34] =
 	NavManik_Update_mA6BB17D5757164DC18BD5133872C6A13AAC43C38,
 	NavManik_LoadScene_mB831B114493741F27B624D7CCFECE9EE7661D1BD,
 	NavManik__ctor_m52588EA16DD99A223637110AA6072F7D7F01F307,
+	ManikSpawnableScript_Start_m57FFD49B98C73F265B6B4EB8FDC079468217303D,
+	ManikSpawnableScript_Update_m446DC36A3D66F86DCAF64B74F4DA1E3AA5D5FE03,
+	ManikSpawnableScript_SpawnPrefab_mF6F1DA07023A649033C6423BC1188FCD3FF43278,
+	ManikSpawnableScript__ctor_m1FD10FF6B87637D86F6ED9500F139B9528B385C0,
 };
-static const int32_t s_InvokerIndices[34] = 
+static const int32_t s_InvokerIndices[38] = 
 {
 	3574,
 	4417,
@@ -152,13 +164,17 @@ static const int32_t s_InvokerIndices[34] =
 	4417,
 	4417,
 	3574,
+	4417,
+	4417,
+	4417,
+	3651,
 	4417,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	34,
+	38,
 	s_methodPointers,
 	0,
 	NULL,

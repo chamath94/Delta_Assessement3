@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Menu/Menu Scene.unity
     guid: 277fce69523b2d04caf42622c6d4d8dd
   - enabled: 1
+    path: Assets/Manik/ManikScene.unity
+    guid: 364bb0d0494fdef47ae3b8608373dd95
+  - enabled: 1
     path: Assets/Kanchanbir/KanchanbirScene.unity
     guid: 0c4f487a6be48e242b01746fa4b19053
   m_configObjects:
